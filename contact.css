@@ -1,0 +1,45 @@
+.div__container__form--1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    color:#fff;
+}
+
+.div__container__form{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 90%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    background: linear-gradient(to right,green,#000);
+}
+
+.div__container__form--1 .botoncito{
+    margin-top: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.div__container__form--1 .botoncito:hover{
+
+    margin-top: 2%;
+    color:#fff;
+    font-family: cursive;
+    font-size: 15px;
+    width: 60%  !important;
+
+}

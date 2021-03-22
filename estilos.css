@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+.header__container__nav__ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background:rgb(218, 119, 48);
+}
+.header__container{
+    position:sticky;
+    top:0;
+}
+
+.header__container__nav__ul li{
+    /* background-color: coral; */
+    list-style: none;
+    text-align: center;
+    min-width: 25%;
+    font-size: 20px;
+}
+.header__container__nav__ul li a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.header__container__nav__ul li a i, .header__container__nav__ul li a{
+    color: #fff;
+}
+
+.header__container__nav__ul li a:hover{
+    color:rgb(221, 221, 217);
+    font-family: cursive;
+}
+
+body{
+    /* background: url('/fondo_contacto.jpg'); */
+    background: linear-gradient(to right,#000,#ccc) ;
+}
+
+.div__container{
+    width: 100%;
+}
+.div__container .div__container__logo{
+    
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.div__container .div__container__logo img{
+    width: 90%;
+    height: 90%;
+    align-self: center;
+}
