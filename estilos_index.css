@@ -21,15 +21,20 @@
     justify-content: space-around;
     
 }
+.div__container__destacados__section__img div a{
+    border: 2px solid blue;
+    background: blue;
+    color: #fff;
+}
+
+.div__container__destacados__section__img div a:hover{    
+    color:yellow;
+
+}
 .div__container__destacados__section__img div h2,.div__container__destacados__section__img div h3,.div__container__destacados__section__img div a{
     color:#fff;
     text-align: center;
     
-}
-.div__container__destacados__section__img div a:hover{
-    color:#ff1;
-    font-family: fantasy;
-    font-size: 30px  !important
 }
 .div__container__destacados__section__img div{
     margin-bottom: 20px;
