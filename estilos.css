@@ -38,11 +38,11 @@
 .header__container__nav__ul li a i, .header__container__nav__ul li a{
     color: #fff;
 }
-
+/* 
 .header__container__nav__ul li a:hover{
     color:rgb(221, 221, 217);
     font-family: cursive;
-}
+} */
 
 body{
     /* background: url('/fondo_contacto.jpg'); */
