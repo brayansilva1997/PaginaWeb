@@ -17,14 +17,12 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: #000;
-    border-radius: 90%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
-    background: linear-gradient(to right,green,#000);
+    border: 4px solid #fff;
+    margin: 20px;
+
+    
 }
+
 
 .div__container__form--1 .botoncito{
     margin-top: 2%;
@@ -33,13 +31,4 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-}
-.div__container__form--1 .botoncito:hover{
-
-    margin-top: 2%;
-    color:#fff;
-    font-family: cursive;
-    font-size: 15px;
-    width: 60%  !important;
-
 }

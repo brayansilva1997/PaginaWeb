@@ -14,7 +14,7 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    background:rgb(218, 119, 48);
+    background: chocolate;
 }
 .header__container{
     position:sticky;

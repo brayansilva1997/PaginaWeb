@@ -8,31 +8,38 @@
     <script src="https://kit.fontawesome.com/bac63c52a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="estiloBarra.css">
 </head>
 <body>
-    <header class="header__container">
+    <label for="boton"><i style=" color:#fff; font-size: 50px; padding-left: 6px;" class="fas fa-bars"></i></label>
+    <input type="checkbox" id="boton">
+    <header style="z-index: 3;" class="header__container">
         <nav class="header__container__nav">
             <ul class="header__container__nav__ul">
-                <li><a href="index.html"><i class="fas fa-house-user"></i>Home</a></li>
-                <li><a href="store.html"><i class="fas fa-store"></i> Store</a></li>
-                <li><a href="contact.html"><i class="fas fa-id-card"></i>Contact</a></li>
-                <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+                <li><a  href="index.html"><i style="padding-right: 10px; font-size: 50px;" class="fas fa-house-user"></i>Home</a></li>
+                <li><a  href="store.html"><i style="padding-right: 10px; font-size: 50px;" class="fas fa-store"></i>Store</a></li>
+                <li><a  href="contact.html"><i style="padding-right: 10px; font-size: 50px;" class="fas fa-id-card"></i>Contact</a></li>
+                <li><a  href="about.html"><i style="padding-right: 10px; font-size: 50px;" class="fas fa-users"></i> About</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="div__container">
+    <div style="z-index: 2;" class="div__container">
 
         <div class="div__container__form">
             <form class="div__container__form--1" action="">
-                <label style="font-size: 30px;" for="nombre">Nombres:</label>
-                <input placeholder="Ingresa tus nombres" name="nombre" type="text" id="nombre">
-                <label style="font-size: 30px;" for="apellido">Apellidos:</label>
-                <input placeholder="Ingresa tus apellidos" name="apellido" type="text" id="apellido">
-                <label style="font-size: 30px;" for="correo">Correo Electronico</label>
-                <input  type="email" placeholder="Ingresa tu correo" id="correo" name="correo">
-                <label style="font-size: 30px;" for="mensaje">Escribenos un mensaje</label>
-                <textarea placeholder="Mandanos un mensaje de lo que desees" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <!-- <label style="font-size: 30px;" for="nombre">Nombres:</label> -->
+                <p style="font-size: 25px;" id="nombre">Nombre:</p>
+                <input style="height: 35px;" placeholder="Ingresa tus nombres" name="nombre" type="text" id="nombre">
+                <!-- <label style="font-size: 30px;" for="apellido">Apellidos:</label> -->
+                <p style="font-size: 25px;">Aoellidos</p>
+                <input style="height: 35px;" placeholder="Ingresa tus apellidos" name="apellido" type="text" id="apellido">
+                <!-- <label style="font-size: 30px;" for="correo">Correo Electronico</label> -->
+                <p style="font-size: 25px;">Correo Electronico</p>
+                <input style="height: 35px;"  type="email" placeholder="Ingresa tu correo" id="correo" name="correo">
+                <p style="font-size: 25px;">Esbribenos un Mensaje</p>
+                <!-- <label style="font-size: 30px;" for="mensaje">Escribenos un mensaje</label> -->
+                <textarea  placeholder="Mandanos un mensaje de lo que desees" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                 <input class="botoncito" style="width: 50%; height: 40px; align-self: center; background: linear-gradient(to left,yellow,green);" type="submit" value="ENVIAR MENSAJE">
             </form>
         </div>
